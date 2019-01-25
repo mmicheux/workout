@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #B9DA55; }
+
+h1, h2 {
+  font-family: 'Major Mono Display', monospace;
+  color: white; }
+
+h3, h4, h5, h6, p, div {
+  font-family: 'Raleway', sans-serif; }
+
+li {
+  list-style: none;
+  text-align: left; }
+
+p {
+  font-size: 12px; }
+
+.main {
+  text-align: center; }
+
+.header {
+  padding: 20px 50px; }
+
+.routine-per-week {
+  padding: 50px 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; }
+  .routine-per-week .routine {
+    padding: 50px;
+    background-color: white; }
+    .routine-per-week .routine__start-date {
+      color: white;
+      text-transform: uppercase;
+      font-size: 11px;
+      margin-bottom: 10px; }
+    .routine-per-week .routine__title {
+      margin-bottom: 5px;
+      color: #116D4D; }
+    .routine-per-week .routine__repeats {
+      font-size: 11px;
+      color: #C368AC;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      margin-bottom: 30px; }
+    .routine-per-week .routine__list__item {
+      padding-bottom: 30px; }
+      .routine-per-week .routine__list__item img {
+        display: block;
+        text-align: center;
+        margin: 10px auto 0; }
+      .routine-per-week .routine__list__item .item__title, .routine-per-week .routine__list__item .item__duration {
+        display: inline-block;
+        color: #5FB396; }
+      .routine-per-week .routine__list__item .item__title {
+        margin-right: 20px;
+        margin-bottom: 15px; }
+
+.divider {
+  max-width: 300px;
+  height: 11px;
+  filter: contrast(130%); }
