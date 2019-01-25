@@ -50,7 +50,7 @@ p{
 }
 
 .header {
-	padding: 20px 50px;
+	padding:50px;
 }
 
 .routine-per-week{
@@ -60,7 +60,7 @@ p{
 	margin: 0 auto;
 
 	.routine {
-		padding: 50px;
+		padding: 50px 30px;
 		background-color: white;
 
 		&__start-date {
@@ -90,7 +90,7 @@ p{
 				img {
 					display: block;
 					text-align: center;
-					margin: 10px auto 0;
+					margin: 40px auto 0;
 				}
 				.item {
 					&__title, &__duration {

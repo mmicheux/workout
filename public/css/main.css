@@ -23,7 +23,7 @@ p {
   text-align: center; }
 
 .header {
-  padding: 20px 50px; }
+  padding: 50px; }
 
 .routine-per-week {
   padding: 50px 0;
@@ -31,7 +31,7 @@ p {
   max-width: 600px;
   margin: 0 auto; }
   .routine-per-week .routine {
-    padding: 50px;
+    padding: 50px 30px;
     background-color: white; }
     .routine-per-week .routine__start-date {
       color: white;
@@ -53,7 +53,7 @@ p {
       .routine-per-week .routine__list__item img {
         display: block;
         text-align: center;
-        margin: 10px auto 0; }
+        margin: 40px auto 0; }
       .routine-per-week .routine__list__item .item__title, .routine-per-week .routine__list__item .item__duration {
         display: inline-block;
         color: #5FB396; }
